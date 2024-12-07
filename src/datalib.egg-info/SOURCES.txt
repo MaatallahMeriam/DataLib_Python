@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/datalib/__init__.py
+src/datalib/advanced_analysis.py
+src/datalib/data_processing.py
+src/datalib/statistics.py
+src/datalib/visualization.py
+src/datalib.egg-info/PKG-INFO
+src/datalib.egg-info/SOURCES.txt
+src/datalib.egg-info/dependency_links.txt
+src/datalib.egg-info/requires.txt
+src/datalib.egg-info/top_level.txt
