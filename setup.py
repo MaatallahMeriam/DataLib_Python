@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="datalib",
-    version="0.1.0",
+    version="1.0.0",
     author="Maatallah Meriam",
     author_email="mkdmeriam22@gmail.com",
     description="Une bibliothèque pour l'analyse et la manipulation de données",
@@ -17,11 +17,20 @@ setup(
         "matplotlib",
         "scikit-learn",
         "scipy"
+    ],classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Topic :: Scientific/Engineering :: Information Analysis',
     ],
+    keywords='data-analysis statistics machine-learning',
     python_requires=">=3.7",
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+    extras_require={
+        'dev': ['pytest', 'sphinx']
+    }
+    
 )
